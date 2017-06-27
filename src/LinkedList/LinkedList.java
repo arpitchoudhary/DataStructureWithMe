@@ -26,13 +26,19 @@ public class LinkedList {
     /**
      * method to traverse the linkedList
      */
-    public void traverseLinkedList() {
-        System.out.println();
+    public void traverseLinkedList(String message) {
+
+        System.out.println(message);
+        System.out.println("=========================");
+
         Node node = this.head;
         while (node != null) {
             System.out.print("|---- " + node.data + " -----|");
             node = node.next;
         }
+
+        System.out.println();
+        System.out.println();
 
     }
 
@@ -82,10 +88,11 @@ public class LinkedList {
 
     /**
      * method to add node at any location
+     *
      * @param position
      * @param node
      */
-    public void addNodeAtAnyPoint(int position, Node node){
+    public void addNodeAtAnyPoint(int position, Node node) {
 
         if (head == null) {
             head = node;
@@ -93,7 +100,25 @@ public class LinkedList {
         }
 
         Node temp = head;
-        while()
+        int pos = 0;
+        boolean isAdd = false;
+
+        while (temp.next != null) {
+
+            if (pos == position) {
+                node.next = temp.next;
+                temp.next = node;
+                isAdd = true;
+                break;
+            }
+            pos++;
+            temp = temp.next;
+
+        }
+
+        if (!isAdd) {
+            temp.next = node;
+        }
 
     }
 }

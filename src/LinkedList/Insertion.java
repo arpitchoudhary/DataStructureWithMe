@@ -21,25 +21,27 @@ public class Insertion extends LinkedList {
         insertion.createSampleLinkedList();
 
         // traverse the list
-        insertion.traverseLinkedList();
+        insertion.traverseLinkedList("List After Creation");
 
         // adding at the beginning
         insertion.addNodeAtBeginning(new Node(0));
 
         // traverse the list
-        insertion.traverseLinkedList();
+        insertion.traverseLinkedList("Add at the beginning");
 
         // node in the end
         insertion.addNodeInEnd(new Node(4));
 
         // traverse the list
-        insertion.traverseLinkedList();
+        insertion.traverseLinkedList("Add at the end");
 
         // add node after node 2
-        insertion.addNodeAtAnyPoint(4, new Node(3));
+        insertion.addNodeAtAnyPoint(2, new Node(3));
 
         // traverse the list
-        insertion.traverseLinkedList();
+        insertion.traverseLinkedList("Add at the second position");
+
+
     }
 
 }
