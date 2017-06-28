@@ -45,14 +45,19 @@ public class LinkedList {
     /**
      * method to create a list of 2 node
      */
-    public Node createSampleLinkedList() {
+    public Node createSampleLinkedList(int number1, int number2) {
 
-        this.head = new Node(1);
-        Node second = new Node(2);
+        this.head = new Node(number1);
+        Node second = new Node(number2);
         head.next = second;
 
         return head;
 
+    }
+
+    public Node createSingleNode(int number1) {
+        this.head = new Node(number1);
+        return head;
     }
 
     /**
@@ -120,5 +125,26 @@ public class LinkedList {
             temp.next = node;
         }
 
+    }
+
+    /**
+     * Insertion in sorted order Linked List
+     * @param node
+     */
+    public void addNodeInSortedOrder(Node node) {
+
+        if (head == null || node.data < head.data) {
+            node.next = head;
+            head = node;
+            return;
+        }
+
+        Node temp = head;
+        while (temp.next != null && temp.next.data < node.data) {
+            temp = temp.next;
+        }
+
+        node.next = temp.next;
+        temp.next = node;
     }
 }

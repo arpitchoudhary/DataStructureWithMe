@@ -18,7 +18,7 @@ public class Insertion extends LinkedList {
         Insertion insertion = new Insertion();
 
         // create the list to work with
-        insertion.createSampleLinkedList();
+        insertion.createSampleLinkedList(1, 2);
 
         // traverse the list
         insertion.traverseLinkedList("List After Creation");
