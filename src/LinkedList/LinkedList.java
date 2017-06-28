@@ -1,7 +1,7 @@
 package LinkedList;
 
 /**
- * Created by achoudhary on 6/27/17.
+ * Created by arpit on 6/27/17.
  */
 public class LinkedList {
 
