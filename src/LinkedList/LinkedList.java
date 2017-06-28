@@ -129,6 +129,7 @@ public class LinkedList {
 
     /**
      * Insertion in sorted order Linked List
+     *
      * @param node
      */
     public void addNodeInSortedOrder(Node node) {
@@ -146,5 +147,24 @@ public class LinkedList {
 
         node.next = temp.next;
         temp.next = node;
+    }
+
+    /**
+     * find the key in the linked list
+     * @param key
+     * @return
+     */
+    public boolean searchKey(int key) {
+        Node temp = head;
+        boolean isFound = false;
+        while(temp.next !=null){
+            if(temp.data == key){
+                isFound = true;
+                break;
+            } else{
+                temp = temp.next;
+            }
+        }
+        return isFound;
     }
 }

@@ -36,11 +36,5 @@ public class SortedInsertion extends LinkedList {
         insertion.traverseLinkedList("added first element");
 
 
-
-
-
-
-
-
     }
 }
