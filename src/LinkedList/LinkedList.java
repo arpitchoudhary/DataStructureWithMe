@@ -151,20 +151,41 @@ public class LinkedList {
 
     /**
      * find the key in the linked list
+     *
      * @param key
      * @return
      */
     public boolean searchKey(int key) {
         Node temp = head;
         boolean isFound = false;
-        while(temp.next !=null){
-            if(temp.data == key){
+        while (temp.next != null) {
+            if (temp.data == key) {
                 isFound = true;
                 break;
-            } else{
+            } else {
                 temp = temp.next;
             }
         }
         return isFound;
     }
+
+    /**
+     * return the number of element in the list
+     *
+     * @return
+     */
+    public int listLength() {
+        Node temp = head;
+        int count = 0;
+        while (temp != null) {
+            ++count;
+            temp = temp.next;
+        }
+        return count;
+    }
+
+
+    /**
+     * method to reverse the current list
+     */
 }
