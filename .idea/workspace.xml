@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7eae14e2-d8c7-4274-99d5-c139e9abd631" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LinkedList/LinkedList.java" afterPath="$PROJECT_DIR$/src/LinkedList/LinkedList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LinkedList/ReverseList.java" afterPath="$PROJECT_DIR$/src/LinkedList/ReverseList.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +20,8 @@
       <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkedList/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="207" column="19" lean-forward="false" selection-start-line="207" selection-start-column="19" selection-end-line="207" selection-end-column="19" />
+            <state relative-caret-position="523">
+              <caret line="210" column="20" lean-forward="false" selection-start-line="210" selection-start-column="20" selection-end-line="210" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -28,8 +30,8 @@
       <file leaf-file-name="ReverseList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LinkedList/ReverseList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            <state relative-caret-position="405">
+              <caret line="27" column="45" lean-forward="false" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -89,8 +91,8 @@
         <option value="$PROJECT_DIR$/src/LinkedList/SortedInsertion.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/SearchOperation.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/SearchAndCountOperation.java" />
-        <option value="$PROJECT_DIR$/src/LinkedList/ReverseList.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/ReverseList.java" />
       </list>
     </option>
   </component>
@@ -537,7 +539,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -552,39 +554,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LinkedList/LinkedList.java</url>
-          <line>192</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LinkedList/LinkedList.java</url>
-          <line>193</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LinkedList/LinkedList.java</url>
-          <line>196</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LinkedList/LinkedList.java</url>
-          <line>198</line>
-          <properties />
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LinkedList/LinkedList.java</url>
-          <line>202</line>
-          <properties />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="17" />
+      <option name="time" value="19" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -675,16 +645,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="207" column="19" lean-forward="false" selection-start-line="207" selection-start-column="19" selection-end-line="207" selection-end-column="19" />
+        <state relative-caret-position="523">
+          <caret line="210" column="20" lean-forward="false" selection-start-line="210" selection-start-column="20" selection-end-line="210" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList/ReverseList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        <state relative-caret-position="405">
+          <caret line="27" column="45" lean-forward="false" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
           <folding />
         </state>
       </provider>

@@ -45,18 +45,23 @@ public class LinkedList {
     /**
      * method to create a list of 2 node
      */
-    public Node createSampleLinkedList(int number1, int number2) {
+    public Node createSampleLinkedList(int num, int number) {
 
-        this.head = new Node(number1);
-        Node second = new Node(number2);
+        this.head = new Node(num);
+        Node second = new Node(number);
         head.next = second;
 
         return head;
 
     }
 
-    public Node createSingleNode(int number1) {
-        this.head = new Node(number1);
+    /**
+     * method to create the single node
+     * @param number
+     * @return
+     */
+    public Node createSingleNode(int number) {
+        this.head = new Node(number);
         return head;
     }
 

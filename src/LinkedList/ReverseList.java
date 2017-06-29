@@ -19,6 +19,13 @@ public class ReverseList extends LinkedList {
 
         reverseList.traverseLinkedList("After reversing");
 
+        reverseList.head = null;
+
+        //create a single node
+        reverseList.createSingleNode(10);
+
+        reverseList.reverseNode();
+        reverseList.traverseLinkedList("Print");
 
 
 
