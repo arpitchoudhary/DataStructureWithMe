@@ -188,4 +188,26 @@ public class LinkedList {
     /**
      * method to reverse the current list
      */
+    public void reverseNode() {
+
+        if (head == null) {
+            System.exit(0);
+        }
+
+        Node current = head;
+        Node prev = null;
+        Node next = null;
+
+        while (current != null) {
+
+            next = current.next;
+            current.next = prev;
+            prev = current;
+            current = next;
+        }
+        head = prev;
+
+    }
+
+
 }
