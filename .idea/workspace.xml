@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="008b1f7e-0e91-472f-8c0a-ba953e227649" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructureWithMe/LinkedList/Insertion.class" afterPath="$PROJECT_DIR$/out/production/DataStructureWithMe/LinkedList/Insertion.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructureWithMe/LinkedList/LinkedList$Node.class" afterPath="$PROJECT_DIR$/out/production/DataStructureWithMe/LinkedList/LinkedList$Node.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructureWithMe/LinkedList/LinkedList.class" afterPath="$PROJECT_DIR$/out/production/DataStructureWithMe/LinkedList/LinkedList.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructureWithMe/LinkedList/ReverseList.class" afterPath="$PROJECT_DIR$/out/production/DataStructureWithMe/LinkedList/ReverseList.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructureWithMe/LinkedList/SearchAndCountOperation.class" afterPath="$PROJECT_DIR$/out/production/DataStructureWithMe/LinkedList/SearchAndCountOperation.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DataStructureWithMe/LinkedList/SortedInsertion.class" afterPath="$PROJECT_DIR$/out/production/DataStructureWithMe/LinkedList/SortedInsertion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LinkedList/LinkedList.java" afterPath="$PROJECT_DIR$/src/LinkedList/LinkedList.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,6 +62,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -356,6 +353,14 @@
       <option name="presentableId" value="Default" />
       <updated>1501592451449</updated>
     </task>
+    <task id="LOCAL-00001" summary="just updating the more method and prac classes">
+      <created>1509112809256</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1509112809256</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -400,6 +405,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="just updating the more method and prac classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="just updating the more method and prac classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
