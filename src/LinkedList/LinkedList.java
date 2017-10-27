@@ -57,6 +57,7 @@ public class LinkedList {
 
     /**
      * method to create the single node
+     *
      * @param number
      * @return
      */
@@ -201,7 +202,7 @@ public class LinkedList {
 
         Node current = head;
         Node prev = null;
-        Node next = null;
+        Node next;
 
         while (current != null) {
 
@@ -214,5 +215,13 @@ public class LinkedList {
 
     }
 
+    /**
+     * this is the method to merge two sorted list
+     * @param first
+     * @param second
+     */
+    public void mergeSortedLinkedLists(Node first, Node second){
+
+    }
 
 }
