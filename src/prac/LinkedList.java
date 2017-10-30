@@ -278,9 +278,9 @@ public class LinkedList {
     }
 
 
-    public void reverseListOfGroup(Node node, int group){
+    public void reverseListOfGroup(Node node, int group) {
 
-        if(node == null){
+        if (node == null) {
             return;
         }
 
@@ -290,7 +290,7 @@ public class LinkedList {
 
         int count = 0;
 
-        while(current !=null){
+        while (current != null) {
 
         }
 
@@ -377,7 +377,7 @@ public class LinkedList {
 
         while (temp != null) {
 
-            if(count%2 == 1){
+            if (count % 2 == 1) {
                 slowNode = mid;
                 mid = mid.next;
             }
@@ -391,6 +391,46 @@ public class LinkedList {
         mid = null;
     }
 
+
+    /**
+     * a, b, c, d, e, f, g -> rotate by 2
+     * <p>
+     * c, d, e, f, g, a, b
+     *
+     * @param head
+     */
+    public void rotateLinkedList(Node head, int rotateBy) {
+
+        if (rotateBy < 1) {
+            throw new IllegalArgumentException("rotate By can't be Zero or less");
+        }
+
+        if (head == null) {
+            System.out.println("List is empty");
+            return;
+        }
+
+        Node temp = head;
+        Node prevNode = null;
+        int count = 0;
+        while (temp.next != null) {
+
+            if (count < rotateBy) {
+                prevNode = temp;
+                count++;
+            }
+
+            temp = temp.next;
+        }
+
+        Node newHead = prevNode.next;
+        prevNode.next = null;
+        temp.next = head;
+
+        this.head = newHead;
+
+
+    }
 
     public static void main(String... args) {
 
@@ -485,6 +525,11 @@ public class LinkedList {
 
         mergeSort.deleteMiddleElementInList(mergeSort.head);
 
+        mergeSort.traverseLinkedList();
+
+        System.out.println("Rotate linked list");
+
+        mergeSort.rotateLinkedList(mergeSort.head, 2);
         mergeSort.traverseLinkedList();
 
         linkedList = null;
